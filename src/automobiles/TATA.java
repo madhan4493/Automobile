@@ -20,6 +20,7 @@ public class TATA {
 	public void Aria(){
 		
 		System.out.println("TATA ARIA");
+		System.out.println("discontinued");
 	}
 	@BeforeSuite
 	public void Welcome() {
