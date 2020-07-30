@@ -15,6 +15,7 @@ public class TATA {
 	public void Hexa(){
 		
 		System.out.println("TATA Hexa");
+		System.out.println("new update");
 	}
 	@Test
 	public void Aria(){
