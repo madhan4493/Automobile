@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="13" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-23T14:47:55 IST" name="Automobiles" finished-at="2020-07-23T14:47:55 IST" duration-ms="62">
+    <groups>
+      <group name="Sedan">
+        <method signature="Toyota.Corolla()[pri:0, instance:automobiles.Toyota@4387b79e]" name="Corolla" class="automobiles.Toyota"/>
+        <method signature="VW.Passat()[pri:0, instance:automobiles.VW@2ddc8ecb]" name="Passat" class="automobiles.VW"/>
+      </group> <!-- Sedan -->
+    </groups>
+    <test started-at="2020-07-23T14:47:55 IST" name="EconomyCars" finished-at="2020-07-23T14:47:55 IST" duration-ms="57">
+      <class name="automobiles.Toyota">
+        <test-method signature="Corolla()[pri:0, instance:automobiles.Toyota@4387b79e]" started-at="2020-07-23T14:47:55 IST" name="Corolla" finished-at="2020-07-23T14:47:55 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Corolla -->
+        <test-method signature="Fortuner()[pri:0, instance:automobiles.Toyota@4387b79e]" started-at="2020-07-23T14:47:55 IST" name="Fortuner" finished-at="2020-07-23T14:47:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fortuner -->
+        <test-method signature="InnovaCrysta()[pri:0, instance:automobiles.Toyota@4387b79e]" started-at="2020-07-23T14:47:55 IST" name="InnovaCrysta" finished-at="2020-07-23T14:47:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InnovaCrysta -->
+      </class> <!-- automobiles.Toyota -->
+      <class name="automobiles.TATA">
+        <test-method signature="Aria()[pri:0, instance:automobiles.TATA@79ca92b9]" started-at="2020-07-23T14:47:55 IST" name="Aria" finished-at="2020-07-23T14:47:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aria -->
+        <test-method signature="Hexa()[pri:0, instance:automobiles.TATA@79ca92b9]" started-at="2020-07-23T14:47:55 IST" name="Hexa" finished-at="2020-07-23T14:47:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hexa -->
+        <test-method signature="SafariStorme()[pri:0, instance:automobiles.TATA@79ca92b9]" started-at="2020-07-23T14:47:55 IST" name="SafariStorme" finished-at="2020-07-23T14:47:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SafariStorme -->
+      </class> <!-- automobiles.TATA -->
+    </test> <!-- EconomyCars -->
+    <test started-at="2020-07-23T14:47:55 IST" name="VWCars" finished-at="2020-07-23T14:47:55 IST" duration-ms="62">
+      <class name="automobiles.Skoda">
+        <test-method signature="Laura()[pri:0, instance:automobiles.Skoda@229d10bd]" started-at="2020-07-23T14:47:55 IST" name="Laura" finished-at="2020-07-23T14:47:55 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Laura -->
+        <test-method is-config="true" signature="Kodiaq()[pri:0, instance:automobiles.Skoda@229d10bd]" started-at="2020-07-23T14:47:55 IST" name="Kodiaq" finished-at="2020-07-23T14:47:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Kodiaq -->
+      </class> <!-- automobiles.Skoda -->
+      <class name="automobiles.VW">
+        <test-method is-config="true" signature="Vento()[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Vento" finished-at="2020-07-23T14:47:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vento -->
+        <test-method is-config="true" signature="Vw()[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Vw" finished-at="2020-07-23T14:47:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vw -->
+        <test-method is-config="true" signature="Germans()[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Germans" finished-at="2020-07-23T14:47:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Germans -->
+        <test-method signature="Passat()[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Passat" finished-at="2020-07-23T14:47:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Passat -->
+        <test-method is-config="true" signature="Germans()[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Germans" finished-at="2020-07-23T14:47:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Germans -->
+        <test-method signature="Polo(java.lang.String, java.lang.String)[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Polo" data-provider="year" finished-at="2020-07-23T14:47:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2013]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TSI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Polo -->
+        <test-method is-config="true" signature="Germans()[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Germans" finished-at="2020-07-23T14:47:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Germans -->
+        <test-method signature="Polo(java.lang.String, java.lang.String)[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Polo" data-provider="year" finished-at="2020-07-23T14:47:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2014]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TDI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Polo -->
+        <test-method signature="Polo(java.lang.String, java.lang.String)[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Polo" data-provider="year" finished-at="2020-07-23T14:47:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TDI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Polo -->
+        <test-method is-config="true" signature="Germans()[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Germans" finished-at="2020-07-23T14:47:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Germans -->
+        <test-method is-config="true" signature="Volks()[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Volks" finished-at="2020-07-23T14:47:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Volks -->
+        <test-method is-config="true" signature="Thanks()[pri:0, instance:automobiles.VW@2ddc8ecb]" started-at="2020-07-23T14:47:55 IST" name="Thanks" finished-at="2020-07-23T14:47:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Thanks -->
+      </class> <!-- automobiles.VW -->
+      <class name="automobiles.TATA">
+        <test-method is-config="true" signature="Welcome()[pri:0, instance:automobiles.TATA@79ca92b9]" started-at="2020-07-23T14:47:55 IST" name="Welcome" finished-at="2020-07-23T14:47:55 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Welcome -->
+      </class> <!-- automobiles.TATA -->
+    </test> <!-- VWCars -->
+  </suite> <!-- Automobiles -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Indian">
+  <test thread-count="5" name="Cars">
+  <groups>
+    <run>
+    	<include name = "Sedan"/>
+    </run>
+    </groups>
+    <packages>
+    <package name = "automobiles">
+    </package>
+    </packages>
+    
+  </test> <!-- Cars -->
+</suite> <!-- Indian -->
